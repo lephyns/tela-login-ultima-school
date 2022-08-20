@@ -1,0 +1,199 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.container-login {
+    height: 100vh;
+    width: 100%;
+    background-color: #dbd9d9;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-ultima {
+    height: 40px;
+}
+
+#img-background {
+    height: 100%;
+    width: 100%;
+    opacity: 0.84;
+    border-radius: 0 20px 20px 0px;
+}
+
+.content-box {
+    height: 75%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px; 
+}
+
+.right-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    border-radius: 0 20px 20px 0px;
+}
+
+.formbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 22%;
+}
+
+.span-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    border: none;
+    font-size: 17px;
+    color: #32324f;
+    background-color: rgb(236, 242, 247);
+    border-radius: 5px;
+    height: 45px;
+    width: 296px;
+    margin-bottom: -8px;
+    padding-left: 46px;
+}
+
+.inputs {
+    display: flex;
+    /* background-color: blueviolet; */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-with-icon {
+    display: flex;
+    flex-direction: column;
+}
+
+#envelope {
+    left: 17px;
+    bottom: -30px;
+    position: relative;
+    color: #2A88C8;
+}
+
+#lock{
+    left: 17px;
+    bottom: -30px;
+    position: relative;
+    color: #2A88C8;
+}
+
+.below-input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 31px;
+    justify-content: space-evenly;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 41px;
+}
+
+button {
+    background-color: #2A88C8;
+    border-radius: 5px;
+    height: 45px;
+    width: 253px;
+    border: none;
+}
+
+.entrar-button {
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
+
+.create-account-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.space {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: black;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+    color: #2A88C8;
+}
+
+.create-account {
+    text-decoration: none;
+    color: black;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+    color: #2A88C8;
+}
