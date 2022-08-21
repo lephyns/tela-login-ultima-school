@@ -63,8 +63,6 @@ html {
 .formbox {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
     justify-content: center;
     align-items: center;
 }
@@ -76,6 +74,10 @@ html {
     justify-content: center;
     margin-top: 20%;
     margin-bottom: 22%;
+}
+
+label {
+    margin-left: 12px;
 }
 
 .span-box {
@@ -95,8 +97,8 @@ html {
     background-color: rgb(236, 242, 247);
     border-radius: 5px;
     height: 45px;
-    width: 296px;
-    margin-bottom: -8px;
+    width: 329px;
+    margin-bottom: 6px;
     padding-left: 46px;
 }
 
@@ -111,20 +113,21 @@ html {
 }
 
 .input-with-icon {
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 
 #envelope {
-    left: 17px;
-    bottom: -30px;
+    display: inline-block;
+    left: 36px;
+    bottom: -1px;
     position: relative;
     color: #2A88C8;
 }
 
 #lock{
-    left: 17px;
-    bottom: -30px;
+    display: inline-block;
+    left: 36px;
+    bottom: -1px;
     position: relative;
     color: #2A88C8;
 }
@@ -155,6 +158,11 @@ button {
     border: none;
 }
 
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+} 
+
 .entrar-button {
     font-size: 17px;
     color: white;
@@ -168,7 +176,13 @@ button {
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 31px;
+}
+
+.checkbox:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #2A88C8;
 }
 
 .space {
