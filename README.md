@@ -11,4 +11,4 @@ Ainda não foi implementado a responsividade neste projeto.<br>
 
 Abaixo tela do projeto:
 
-![](../v2.0/imagens/projeto_tela_login_ultima_school.png)
+![Gif](./imagens/projeto_tela_login.gif)
